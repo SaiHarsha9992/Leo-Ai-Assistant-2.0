@@ -1,0 +1,310 @@
+
+.SlideChat{
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding: 10px;
+  bottom: 8px;
+  background-color: black;
+  border-radius: 15px;
+  border: 3px solid gold;
+}
+
+
+.answer{
+  color: gold;
+  position: relative;
+  bottom: 40px;
+  left: 50px;
+  width: 350px;
+}
+
+.send{
+  background-color: red;
+  border: 3px solid gold;
+  text-decoration-color: white;
+  padding: 5;
+  color: gold;
+  padding-left: 5;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.input {
+
+	position:relative;
+    height: 40px;
+    width: 600px;
+	font-size: 1.5em;
+	background: linear-gradient(21deg, #ffe710, #ea1b1b);
+	padding: 3px;
+	display: inline-block;
+	border-radius: 9999em;
+	*:not(span) {
+		position: relative;
+		display: inherit;
+		border-radius: inherit;
+		margin: 0;
+		border: none;
+		outline: none;
+		padding: 0 .325em;
+		z-index: 1; 
+		&:focus + span {
+			opacity: 1;
+			transform: scale(1);
+		}
+	}
+	
+	span {
+		
+		transform: scale(.993, .94); 
+		transition: transform .5s, opacity .25s;
+		opacity: 0; 
+		
+		position:absolute;
+		z-index: 0; 
+		margin:4px; 
+		left:0;
+		top:0;
+		right:0;
+		bottom:0;
+		border-radius: inherit;
+		pointer-events: none; 
+		box-shadow: inset 0 0 0 3px #db2121,
+			0 0 0 4px #c59f24,
+			3px -3px 30px #ea1b1b, 
+			-3px 3px 30px #ffe710;
+             
+	}
+	
+}
+
+
+input {
+    height: 40px;
+    width: 97%;
+    margin: 4px;
+    font-size: 1em;
+    border-radius: 5px;
+	font-family: inherit;
+	line-height:inherit;
+	color:#000000;
+    background-color: transparent;
+  
+}
+
+::placeholder {
+	color:#000000;
+}
+
+:root {
+    /* 
+      One-stop magic hue shift
+      We're using oklch(), so these might not be the hue values you are familiar with 
+    See: https://oklch.com/
+    */
+    --hue: 80; /* change me (0-360) */
+    --hue-adjust: 135; /* and me */
+  
+    --hue-2: calc(var(--hue) + var(--hue-adjust));
+  
+    --page-background: oklch(10% 0.0666 var(--hue));
+  }
+  
+  .button1 {
+    --button-background: oklch(20% 0.0666 var(--hue));
+    --text-base: oklch(45% 0.175 var(--hue));
+    --text-hover: oklch(95% 0.145 calc(var(--hue) + 30));
+  
+    --shadow-start: oklch(95% 0.145 var(--hue-2));
+    --shadow-end: oklch(60% 0.29 var(--hue));
+  
+    /* No color function, so we can use different opacity values */
+    --shadow-inner: 60% 0.29 var(--hue);
+  
+    all: unset;
+  
+    /* Text */
+    color: linear-gradient(21deg, #fff9f9, #fffafa);
+    font: 700 1.125rem/1.2 Raleway, sans-serif;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+  
+    /* Button sizing */
+    padding: 0.85em;
+    max-width: 100%;
+    height: 30px;
+    width: 60px;
+  
+    /* Button styling */
+    background-color: var(--button-background);
+    background-clip: padding-box;
+    border: 3px solid var(--text-base);
+    border-radius: 2em;
+    cursor: pointer;
+  
+    /* Effects */
+    position: relative;
+    transition: 0.25s ease-out;
+  
+    /* Set up pseudo elements */
+    &::before,
+    &::after {
+      content: "";
+      border-radius: inherit;
+      transition: inherit;
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+    }
+  
+    /* Gradient shadow */
+    &::before {
+      /* Position */
+      inset: -0.2em;
+      z-index: -1;
+  
+      /* Effect */
+      background: linear-gradient(21deg, #ffffff, #ffffff);
+      filter: blur(1.2em) saturate(1.2);
+  
+      /* Animation */
+      transform-origin: bottom;
+      transform: scaleY(0.5);
+      opacity: 0;
+    }
+  
+    /* Semi-transparent blended box-shadow brightens up the border */
+    &::after {
+      /* Effect */
+      box-shadow: inset 0 0 0 1px #ede5e5, /* inner pixel */
+        0 0 0 4px hsla(0, 0%, 100%, 0.5), /* lightened border */
+        1px 1px 0 4px #d1cdcd; /* outer pixel */
+      mix-blend-mode: overlay;
+  
+      /* Animation */
+      opacity: 0;
+    }
+  
+    &:hover,
+    &:focus {
+        color: linear-gradient(21deg, #ffffff, #ffffff);
+  
+      /*  Lighten border */
+      border-color: transparent;
+  
+      /* Inner shadow */
+      box-shadow:
+        inset 0 1.4em 0 oklch(var(--shadow-inner) / 0.1), /* gloss */
+        inset 0 0 1.4em oklch(var(--shadow-inner) / 0.12), /* inner glow */
+        0 1px 1px oklch(var(--shadow-inner) / 0.32); /* bottom line */
+  
+      /* Show effects */
+      &::before,
+      &::after {
+        transform: none;
+        opacity: 1;
+      }
+    }
+  }
+  
+  
+  button {
+    --button-background: oklch(20% 0.0666 var(--hue));
+    --text-base: oklch(45% 0.175 var(--hue));
+    --text-hover: oklch(95% 0.145 calc(var(--hue) + 30));
+  
+    --shadow-start: oklch(95% 0.145 var(--hue-2));
+    --shadow-end: oklch(60% 0.29 var(--hue));
+  
+    /* No color function, so we can use different opacity values */
+    --shadow-inner: 60% 0.29 var(--hue);
+  
+    all: unset;
+  
+    /* Text */
+    color: linear-gradient(21deg, #ffffff, #ffffff);
+    font: 700 1.125rem/1.2 Raleway, sans-serif;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+  
+    /* Button sizing */
+    padding: 0.85em;
+    max-width: 100%;
+    width: 50px;
+  
+    /* Button styling */
+    background-color: var(--button-background);
+    background-clip: padding-box;
+    border: 3px solid var(--text-base);
+    border-radius: 2em;
+    cursor: pointer;
+  
+    /* Effects */
+    position: relative;
+    transition: 0.25s ease-out;
+  
+    /* Set up pseudo elements */
+    &::before,
+    &::after {
+      content: "";
+      border-radius: inherit;
+      transition: inherit;
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+    }
+  
+    /* Gradient shadow */
+    &::before {
+      /* Position */
+      inset: -0.2em;
+      z-index: -1;
+  
+      /* Effect */
+      background: linear-gradient(var(--shadow-start), var(--shadow-end));
+      filter: blur(1.2em) saturate(1.2);
+  
+      /* Animation */
+      transform-origin: bottom;
+      transform: scaleY(0.5);
+      opacity: 0;
+    }
+  
+    /* Semi-transparent blended box-shadow brightens up the border */
+    &::after {
+      /* Effect */
+      box-shadow: inset 0 0 0 1px #929090, /* inner pixel */
+        0 0 0 4px hsla(0deg, 0%, 100%, 0.5), /* lightened border */
+        1px 1px 0 4px #a7a4a4; /* outer pixel */
+      mix-blend-mode: overlay;
+  
+      /* Animation */
+      opacity: 0;
+    }
+  
+    &:hover,
+    &:focus {
+        color: linear-gradient(21deg, #676666, #6d6d6d);
+  
+      /*  Lighten border */
+      border-color: gold;
+  
+      /* Inner shadow */
+      box-shadow:
+        inset 0 1.4em 0 oklch(var(--shadow-inner) / 0.1), /* gloss */
+        inset 0 0 1.4em oklch(var(--shadow-inner) / 0.32), /* inner glow */
+        0 1px 1px oklch(var(--shadow-inner) / 0.32); /* bottom line */
+  
+      /* Show effects */
+      &::before,
+      &::after {
+        transform: none;
+        opacity: 1;
+      }
+    }
+  }
+  
+  
