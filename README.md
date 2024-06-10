@@ -5,10 +5,10 @@ Leo AI is a cutting-edge, three-dimensional virtual assistant designed to seamle
 ```
 npm install
 npm install dev
-```
+
+```![Screenshot 2024-06-10 055843](https://github.com/SaiHarsha9992/Leo-Ai-Assistant-2.0/assets/119718764/ffe416c7-5013-4f53-b899-e88ead3cc781)
 
 
-![image]([https://user-images.githubusercontent.com/6551176/221732091-23ee52cb-4150-42fa-b998-43628d7a6b0d.png](https://drive.google.com/file/d/1yI2k61PcszS8KRoSPiEBbUqYd5NwRSVS/view?usp=sharing))
 
 Compatibility:
 Leo AI is compatible with a wide range of devices, including tablets, desktops, and smart home devices, ensuring a consistent and integrated experience across all your platforms.
