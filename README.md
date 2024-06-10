@@ -2,11 +2,12 @@
 Overview:
 Leo AI is a cutting-edge, three-dimensional virtual assistant designed to seamlessly integrate into your digital life. With a sleek and modern design, Leo AI provides an engaging and interactive experience, transforming the way you interact with technology. Whether you need help with daily tasks, professional work, or simply want a companion for entertainment, Leo AI is here to assist you with unparalleled efficiency and charm.
 
-```
+
 npm install
 npm install dev
 
-![Screenshot 2024-06-10 055843](https://github.com/SaiHarsha9992/Leo-Ai-Assistant-2.0/assets/119718764/ffe416c7-5013-4f53-b899-e88ead3cc781)
+![Screenshot 2024-06-10 055843](https://github.com/SaiHarsha9992/Leo-Ai-Assistant-2.0/assets/119718764/366be164-16e4-47b5-bc5e-316420bf4094)
+
 
 
 
