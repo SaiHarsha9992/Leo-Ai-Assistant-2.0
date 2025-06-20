@@ -74,25 +74,8 @@ Copy
 Edit
 # Run test suite (if integrated)
 npm test        # or yarn test
-📂 Project Structure
-bash
-Copy
-Edit
-Leo-Ai-Assistant-2.0/
-├── public/                  # Static files (3D models, rhubarb data, images)
-├── src/
-│   ├── assets/              # 3D assets and audio
-│   ├── components/          # UI components
-│   ├── hooks/               # Custom React hooks
-│   ├── lib/                 # API utilities and services
-│   ├── styles/              # Tailwind/PostCSS configs
-│   └── App.jsx              # Main application logic
-├── .env                     # Environment variables
-├── vite.config.js           # Vite build config
-└── README.md
-📸 Preview
-(You can embed a GIF or screen recording here for better engagement)
 
+📸 Preview
 md
 Copy
 Edit
