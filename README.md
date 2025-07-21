@@ -1,29 +1,38 @@
-<div align="center">
+<h1 align="center" id="title">LEO AI ASSISTANT 2.0</h1>
 
-# Leo AI Assistant 2.0  
-**Immersive 3D Virtual Assistant Powered by Cutting-Edge AI & Web Technologies**
-![Screenshot 2024-06-10 055843](https://github.com/SaiHarsha9992/Leo-Ai-Assistant-2.0/assets/119718764/366be164-16e4-47b5-bc5e-316420bf4094)
+<p align="center">
+  <img src="https://socialify.git.ci/SaiHarsha9992/Leo-Ai-Assistant-2.0/image?description=1&language=1&name=1&owner=1&pattern=Floating%20Cogs&stargazers=1&theme=Dark" alt="Leo AI Assistant Banner">
+</p>
 
-</div>
-
----
-
-## 📌 Overview
-
-**Leo AI Assistant 2.0** is a futuristic 3D virtual assistant that combines conversational AI, speech processing, and real-time 3D interaction. With a strong backend and sleek frontend powered by **React**, **Three.js**, **Blender**, and **AI APIs**, Leo offers a visually immersive and responsive user experience.
-
-> Built for productivity, automation, and engaging interactions — Leo redefines how users experience virtual assistance.
+<p align="center">
+Leo is an immersive 3D AI assistant featuring real-time voice interaction, realistic lip sync, and animated avatars powered by WebGL and AI tools. Built with modern tech like React, Three.js, and ElevenLabs, Leo offers futuristic user experiences right in your browser.
+</p>
 
 ---
 
-## ✨ Key Features
+## 🚀 Demo
 
-- 🎨 **3D Visuals:** Blender + Three.js-powered animated assistant in a web interface.
-- 🧠 **Conversational Intelligence:** OpenAI/Gemini integration for natural language responses.
-- 🗣️ **Speech Interaction:** Azure STT (speech-to-text) + AWS Polly TTS (text-to-speech).
-- 🕶️ **Lip Sync:** Uses FFmpeg + Rhubarb Lip Sync for realistic mouth movement.
-- ⚙️ **Modular Design:** Easily scalable and extensible architecture.
-- 🌐 **Cross-Platform:** Web-based implementation with React and Vite.
+[🔗 Live Demo](https://your-live-demo-url.com)  
+> Replace with your actual deployment link (e.g., Vercel, GitHub Pages)
+
+---
+
+## 📸 Project Screenshots
+
+<img src="https://github.com/SaiHarsha9992/Leo-Ai-Assistant-2.0/assets/119718764/366be164-16e4-47b5-bc5e-316420bf4094" alt="leo-preview" width="1000">
+
+---
+
+## 🧐 Features
+
+- 🎨 3D avatar built using Blender, rendered with React Three Fiber
+- 🧠 Conversational AI integration (OpenAI/Gemini)
+- 🗣️ Text-to-Speech with ElevenLabs / React-TTS
+- 🎙️ Speech-to-Text via Azure
+- 👄 Realistic lip sync powered by Rhubarb + FFmpeg
+- ⚡ Lightweight and responsive frontend using Vite
+- 🔌 Modular architecture with clean separation of components
+- 🌐 Fully web-based — no app download required
 
 ---
 
@@ -32,51 +41,77 @@
 | Category        | Technologies                                                                 |
 |----------------|-------------------------------------------------------------------------------|
 | 💻 Frontend     | React.js, Vite, Tailwind CSS, Three.js, React Three Fiber                   |
-| ⚙️ Backend      | Node.js, Express.js                                                          |
-| ☁️ AI/Cloud     | OpenAI / Gemini, Azure STT, AWS Polly, AWS Rekognition                      |
-| 🎬 Animation    | Blender (3D modeling), FFmpeg, Rhubarb Lip Sync                             |
-| 📦 Tools        | PostCSS, Autoprefixer, Axios, ESLint, dotenv                                |
+| ⚙️ Backend      | Node.js, Express.js (if used)                                                |
+| ☁️ AI/Cloud     | OpenAI / Gemini, ElevenLabs, Azure STT, AWS Polly                           |
+| 🎬 Animation    | Blender, Rhubarb Lip Sync, FFmpeg                                            |
+| 🧰 Tools        | PostCSS, Axios, dotenv, ESLint                                               |
 
 ---
 
-## 🚀 Getting Started
+## 📦 Installation & Setup
 
-### 🔗 Prerequisites
+**1. Clone the Repository**
 
-- Node.js (v16 or higher)
-- npm or yarn
-- Modern browser
-
----
-
-### 📦 Installation
-
-# Clone the repository
 git clone https://github.com/SaiHarsha9992/Leo-Ai-Assistant-2.0.git
-
-# Navigate to project directory
 cd Leo-Ai-Assistant-2.0
+2. Install Dependencies
 
-# Install dependencies
-npm install     # or yarn install
-▶️ Run the Project
 bash
 Copy
 Edit
-# Start development server
-npm run dev     # or yarn dev
+npm install
+3. Run the Development Server
 
-# Open in browser
+bash
+Copy
+Edit
+npm run dev
+4. Open in Browser
+
+arduino
+Copy
+Edit
 http://localhost:5173
 🧪 Testing
 bash
 Copy
 Edit
-# Run test suite (if integrated)
-npm test        # or yarn test
+npm test
+(Only if test suite is configured)
 
-📸 Preview
-md
+📂 Folder Structure
+bash
 Copy
 Edit
-![Screenshot 2024-06-10 055843](https://github.com/SaiHarsha9992/Leo-Ai-Assistant-2.0/assets/119718764/366be164-16e4-47b5-bc5e-316420bf4094)
+Leo-Ai-Assistant-2.0/
+├── public/               # Static assets
+├── src/
+│   ├── components/       # React UI components
+│   ├── models/           # Blender/GLTF 3D models
+│   ├── utils/            # Helper functions (TTS, STT, lip sync)
+│   ├── services/         # API logic
+│   └── App.jsx           # Root component
+├── .env                  # API keys & secrets
+├── vite.config.js        # Vite configuration
+└── README.md
+🙌 Acknowledgements
+React Three Fiber
+
+Rhubarb Lip Sync
+
+Blender
+
+ElevenLabs TTS
+
+Azure Cognitive Services
+
+📬 Contact
+Sai Harsha Gadu
+GitHub: @SaiHarsha9992
+Portfolio: Check my GitHub Projects
+
+⭐ Show Your Support
+If you liked this project, please consider giving it a ⭐ on GitHub — it really helps!
+
+
+
