@@ -1,7 +1,7 @@
 <h1 align="center" id="title">LEO AI ASSISTANT 2.0</h1>
 
 <p align="center">
-  <img src="https://socialify.git.ci/SaiHarsha9992/Leo-Ai-Assistant-2.0/image?description=1&language=1&name=1&owner=1&pattern=Floating%20Cogs&stargazers=1&theme=Dark" alt="Leo AI Assistant Banner">
+  <img src="https://socialify.git.ci/SaiHarsha9992/Leo-Ai-Assistant-2.0/image?custom_language=React&description=1&font=Raleway&language=1&pattern=Formal+Invitation&theme=Dark" alt="Leo AI Assistant Banner">
 </p>
 
 <p align="center">
