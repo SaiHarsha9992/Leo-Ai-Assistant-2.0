@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-Leo is an immersive 3D AI assistant featuring real-time voice interaction, realistic lip sync, and animated avatars powered by WebGL and AI tools. Built with modern tech like React, Three.js, and ElevenLabs, Leo offers futuristic user experiences right in your browser.
+Leo is an immersive 3D AI assistant featuring real-time voice interaction, Built with modern tech like React, Three.js, and ElevenLabs, Leo offers futuristic user experiences right in your browser.
 </p>
 
 ---
