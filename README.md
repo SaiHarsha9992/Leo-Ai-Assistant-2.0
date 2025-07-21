@@ -55,45 +55,13 @@ Leo is an immersive 3D AI assistant featuring real-time voice interaction, Built
 git clone https://github.com/SaiHarsha9992/Leo-Ai-Assistant-2.0.git
 cd Leo-Ai-Assistant-2.0
 2. Install Dependencies
-
-bash
-Copy
-Edit
 npm install
 3. Run the Development Server
-
-bash
-Copy
-Edit
 npm run dev
 4. Open in Browser
-
-arduino
-Copy
-Edit
 http://localhost:5173
-🧪 Testing
-bash
-Copy
-Edit
-npm test
-(Only if test suite is configured)
 
-📂 Folder Structure
-bash
-Copy
-Edit
-Leo-Ai-Assistant-2.0/
-├── public/               # Static assets
-├── src/
-│   ├── components/       # React UI components
-│   ├── models/           # Blender/GLTF 3D models
-│   ├── utils/            # Helper functions (TTS, STT, lip sync)
-│   ├── services/         # API logic
-│   └── App.jsx           # Root component
-├── .env                  # API keys & secrets
-├── vite.config.js        # Vite configuration
-└── README.md
+
 🙌 Acknowledgements
 React Three Fiber
 
@@ -106,9 +74,9 @@ ElevenLabs TTS
 Azure Cognitive Services
 
 📬 Contact
-Sai Harsha Gadu
+Kedarinadh Sai Harsha Gadu
 GitHub: @SaiHarsha9992
-Portfolio: Check my GitHub Projects
+Portfolio: [My Portfolio](https://portfolio-gksharsha.vercel.app/)
 
 ⭐ Show Your Support
 If you liked this project, please consider giving it a ⭐ on GitHub — it really helps!
